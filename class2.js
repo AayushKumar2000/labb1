@@ -33,12 +33,12 @@ set change_age(a){
 
 }
 
-// var su =new fun('Aayush',18);
-// console.log(su.details());
-// console.log(su.vote);
-// su.change_age=15;
-// console.log(su.details());
-// console.log(su.vote);
+var su =new fun('Aayush',18);
+console.log(su.details());
+console.log(su.vote);
+su.change_age=15;
+console.log(su.details());
+console.log(su.vote);
 
 
 class student extends fun{
