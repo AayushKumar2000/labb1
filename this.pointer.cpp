@@ -14,4 +14,7 @@ class This{
 		}
 	
 };
-
+int main(){
+	This t(2,3);
+	t.dispaly();
+}
