@@ -8,6 +8,10 @@ class This{
 			this->a=a;
 			this->b=b;
 		}
+	void add(){
+			cout<<endl<<a+b;
+		}
+		
 		
 		void dispaly(){
 			cout<<this->a<<","<<this->b;
@@ -17,4 +21,5 @@ class This{
 int main(){
 	This t(2,3);
 	t.dispaly();
+	t.add();
 }
